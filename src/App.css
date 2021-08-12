@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.leftAlign {
+  float: left;
+  width: 50%;
+}
+.leftAlign > img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+.rightAlign {
+  width: 50%;
+}
+.rightAlign > img {
+  width: 100%;
+}
